@@ -14,7 +14,7 @@ pipeline{
             steps{
                 echo "Production stage"
                 sh '''
-                    sudo ssh -i /var/lib/jenkins/jenknode.pem -t -o StrictHostKeyChecking=no ubuntu@ec2-3-84-52-79.compute-1.amazonaws.com
+                    sudo ssh -i /var/lib/jenkins/cent.pem -t -o StrictHostKeyChecking=no ubuntu@ec2-3-84-52-79.compute-1.amazonaws.com
                     
                     cd /var/www/
                     sudo rm -rf html
