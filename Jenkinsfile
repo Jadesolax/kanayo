@@ -26,7 +26,7 @@ pipeline{
                     sudo git pull origin master
                     sudo npm install
                     pm2 kill
-                    PORT=3000 pm2 start 
+                    PORT=3000 pm2 start app.js
                     '''
             }
         }
