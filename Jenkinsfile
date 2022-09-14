@@ -21,7 +21,7 @@ pipeline{
                     sudo mkdir html
                     cd html
                     sudo git init   
-                    sudo git remote add origin https://github.com/Jadesolax/cent.node.git
+                    sudo git remote add origin https://github.com/Jadesolax/centnode.git
                     sudo git fetch
                     sudo git pull origin master
                     sudo npm install
